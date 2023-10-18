@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<style>
+    .parent {
+        box-sizing: border-box;
+        position: relative;
+        display: inline-block;
+    }
+
+    .imagebg {
+        position: relative;
+        top: 0;
+        left: 0;
+
+    }
+
+    .image1 {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        border: 1px orange solid;
+    }
+
+    .image2 {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        border: 1px orange solid;
+    }
+</style>
+
+<div class="parent">
+    <img class="imagebg" src="https://via.placeholder.com/800x200"/>
+    <a class="image1" href="#"><img src="https://via.placeholder.com/25"/></a>
+    <a class="image2" href="#"><img src="https://via.placeholder.com/25"/></a>
+</div>
+
+</body>
+</html>
